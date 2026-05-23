@@ -1,0 +1,11 @@
+{
+  "Error":         "Red",
+  "Warning":       "Yellow",
+  "Success":       "Green",
+  "Info":          "Cyan",
+  "Neutral":       "White",
+  "Heading":       "Yellow",
+  "GradientStart": [42, 8, 69],
+  "GradientEnd":   [100, 65, 165],
+  "TextColor":     [255, 255, 255]
+}

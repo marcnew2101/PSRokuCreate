@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="WelcomeScreen" extends="Group">
+	<script type="text/brightscript" uri="welcomeScreen.brs" />
+	<children>
+		<LayoutGroup
+			id="layoutGroup"
+			layoutDirection="vert"
+			horizAlignment="center"
+			vertAlignment="center"
+			itemSpacings="[30]">
+			<BusySpinner
+				id="logo"
+				spinInterval="6"
+				uri="pkg:/images/logos/logo.png" />
+			<Label
+				id="welcomeText">
+				<Font 
+					role="font" 
+					uri="pkg:/fonts/Comfortaa.ttf" 
+					size="48" />
+			</Label>
+		</LayoutGroup>
+	</children>
+</component>
